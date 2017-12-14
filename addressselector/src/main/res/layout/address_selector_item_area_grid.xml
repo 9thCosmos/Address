@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/address_selector_text_color_tab"
+        android:textSize="14sp"
+        android:background="@drawable/address_selector_item_grid_bg"
+        android:padding="2dp"
+        android:gravity="center"/>
+</RelativeLayout>
